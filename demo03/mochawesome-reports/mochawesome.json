@@ -1,5 +1,5 @@
 {
-  "reportTitle": "demo02",
+  "reportTitle": "demo03",
   "inlineAssets": false,
   "stats": {
     "suites": 2,
@@ -7,9 +7,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2017-02-28T09:03:28.586Z",
-    "end": "2017-02-28T09:03:28.612Z",
-    "duration": 26,
+    "start": "2017-02-28T09:05:56.065Z",
+    "end": "2017-02-28T09:05:56.096Z",
+    "duration": 31,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -39,15 +39,15 @@
             "pending": false,
             "code": "expect(add(1, 1)).to.be.equal(2);",
             "isRoot": false,
-            "uuid": "2b02c197-3f47-475b-b2a1-8d286ce43c98",
-            "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+            "uuid": "1c9b81a3-de17-4a46-bd3a-884fc158b2cd",
+            "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
             "skipped": false
           },
           {
             "title": "任何数加0应该等于自身",
             "fullTitle": "加法函数的测试 任何数加0应该等于自身",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -55,8 +55,8 @@
             "pending": false,
             "code": "expect(add(1, 0)).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "e72fcf16-a8bf-4e4c-9306-e6ea01d98d71",
-            "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+            "uuid": "a65ecc74-bd1e-4e9e-9356-f59fabcdd65a",
+            "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
             "skipped": false
           }
         ],
@@ -64,8 +64,8 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\add.test.js",
-        "uuid": "9539f8ea-2555-4b9a-aaca-f19333820cae",
-        "fullFile": "E:\\GitHub\\MyFrontEndExercise\\MyMocha\\mocha-demos\\demo02\\test\\add.test.js",
+        "uuid": "41cd81ce-15fc-4687-8119-162aedc1626c",
+        "fullFile": "E:\\GitHub\\MyFrontEndExercise\\MyMocha\\mocha-demos\\demo03\\test\\add.test.js",
         "passes": [
           {
             "title": "1 加 1 应该等于 2",
@@ -79,15 +79,15 @@
             "pending": false,
             "code": "expect(add(1, 1)).to.be.equal(2);",
             "isRoot": false,
-            "uuid": "2b02c197-3f47-475b-b2a1-8d286ce43c98",
-            "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+            "uuid": "1c9b81a3-de17-4a46-bd3a-884fc158b2cd",
+            "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
             "skipped": false
           },
           {
             "title": "任何数加0应该等于自身",
             "fullTitle": "加法函数的测试 任何数加0应该等于自身",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -95,8 +95,8 @@
             "pending": false,
             "code": "expect(add(1, 0)).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "e72fcf16-a8bf-4e4c-9306-e6ea01d98d71",
-            "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+            "uuid": "a65ecc74-bd1e-4e9e-9356-f59fabcdd65a",
+            "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
             "skipped": false
           }
         ],
@@ -113,7 +113,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 0
+        "duration": 1
       },
       {
         "title": "乘法函数的测试",
@@ -131,8 +131,8 @@
             "pending": false,
             "code": "expect(multiply(1, 1)).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "067ec004-26f5-446e-bb15-51e83516a480",
-            "parentUUID": "16765738-25dc-499b-b788-7643c89113aa",
+            "uuid": "383e5540-c270-43da-acc3-44bd28eca1aa",
+            "parentUUID": "99659aca-43b3-4cc2-bb8d-71fc88ff62db",
             "skipped": false
           }
         ],
@@ -140,8 +140,8 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\dir\\multiply.test.js",
-        "uuid": "16765738-25dc-499b-b788-7643c89113aa",
-        "fullFile": "E:\\GitHub\\MyFrontEndExercise\\MyMocha\\mocha-demos\\demo02\\test\\dir\\multiply.test.js",
+        "uuid": "99659aca-43b3-4cc2-bb8d-71fc88ff62db",
+        "fullFile": "E:\\GitHub\\MyFrontEndExercise\\MyMocha\\mocha-demos\\demo03\\test\\dir\\multiply.test.js",
         "passes": [
           {
             "title": "1 乘 1 应该等于 1",
@@ -155,8 +155,8 @@
             "pending": false,
             "code": "expect(multiply(1, 1)).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "067ec004-26f5-446e-bb15-51e83516a480",
-            "parentUUID": "16765738-25dc-499b-b788-7643c89113aa",
+            "uuid": "383e5540-c270-43da-acc3-44bd28eca1aa",
+            "parentUUID": "99659aca-43b3-4cc2-bb8d-71fc88ff62db",
             "skipped": false
           }
         ],
@@ -180,7 +180,7 @@
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "701f926a-e004-4fe5-864b-91f789cf9c17",
+    "uuid": "1fbbad00-9e9f-4962-84ba-ba54c6c1cc39",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -213,15 +213,15 @@
       "pending": false,
       "code": "expect(add(1, 1)).to.be.equal(2);",
       "isRoot": false,
-      "uuid": "fa28e6f2-4566-4dee-8b4e-b2f513c91618",
-      "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+      "uuid": "3a1ba75f-cce6-441e-a868-f2f4b7c5a963",
+      "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
       "skipped": false
     },
     {
       "title": "任何数加0应该等于自身",
       "fullTitle": "加法函数的测试 任何数加0应该等于自身",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -229,8 +229,8 @@
       "pending": false,
       "code": "expect(add(1, 0)).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "f0efe068-4591-4ca4-90f6-389959dfe596",
-      "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+      "uuid": "6bc9e004-f616-4c9f-876e-4fa84996d453",
+      "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
       "skipped": false
     },
     {
@@ -245,8 +245,8 @@
       "pending": false,
       "code": "expect(multiply(1, 1)).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "0cefd192-0514-4f3d-9e8a-b1bcb7ccae98",
-      "parentUUID": "16765738-25dc-499b-b788-7643c89113aa",
+      "uuid": "1c4b265c-d452-40c7-8cf6-09578df09603",
+      "parentUUID": "99659aca-43b3-4cc2-bb8d-71fc88ff62db",
       "skipped": false
     }
   ],
@@ -265,15 +265,15 @@
       "pending": false,
       "code": "expect(add(1, 1)).to.be.equal(2);",
       "isRoot": false,
-      "uuid": "6f4e6416-c3ea-4afd-8166-676989b399d3",
-      "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+      "uuid": "312f578b-aa99-4aa4-ba57-f5e41f74f0ab",
+      "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
       "skipped": false
     },
     {
       "title": "任何数加0应该等于自身",
       "fullTitle": "加法函数的测试 任何数加0应该等于自身",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -281,8 +281,8 @@
       "pending": false,
       "code": "expect(add(1, 0)).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "550ed9c3-c991-4da5-9a89-b1a6d68e4b73",
-      "parentUUID": "9539f8ea-2555-4b9a-aaca-f19333820cae",
+      "uuid": "72728a2e-ffc0-463a-ab12-b4eacb5a7d7d",
+      "parentUUID": "41cd81ce-15fc-4687-8119-162aedc1626c",
       "skipped": false
     },
     {
@@ -297,8 +297,8 @@
       "pending": false,
       "code": "expect(multiply(1, 1)).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "dad001c4-d1cc-4c26-9bd1-ed7aeda48531",
-      "parentUUID": "16765738-25dc-499b-b788-7643c89113aa",
+      "uuid": "60719b84-70fe-4567-ac85-d9f4b30eec99",
+      "parentUUID": "99659aca-43b3-4cc2-bb8d-71fc88ff62db",
       "skipped": false
     }
   ],
